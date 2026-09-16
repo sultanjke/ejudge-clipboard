@@ -1,4 +1,4 @@
-# ejudge.kz — copy/paste disabler bypasser
+# ejudge.kz - copy/paste disabler bypasser
 
 Restores copy, cut, paste, the context menu, and related shortcuts in the Monaco
 code editor on `https://ejudge.kz/new-client` pages.
