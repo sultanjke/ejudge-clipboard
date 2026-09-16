@@ -91,7 +91,7 @@ code fences such as ` ```js `.
 editor. Installing it while the page is open does not repair that existing editor
 until the page reloads.
 
-A successful initialization should show:
+A successful initialization should show in Console DevTools **(F12)**:
 
 ```text
 [ejudge clipboard] Early hooks installed.
