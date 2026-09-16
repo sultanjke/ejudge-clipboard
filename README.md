@@ -1,18 +1,13 @@
-# ejudge.kz - copy/paste disabler bypasser
+# ejudge.kz clipboard extension
 
 Restores copy, cut, paste, the context menu, and related shortcuts in the Monaco
 code editor on `https://ejudge.kz/new-client` pages.
 
-A **userscript** is a small JavaScript program that a browser extension runs on
-matching websites. **Tampermonkey** is the extension that installs and runs this
-script for you.
-
 ## What you need
 
 - Google Chrome, or a compatible Chromium-based browser.
-- **Regular Tampermonkey (stable)**. The beta version is not required.
+- Regular Tampermonkey (stable).
 - The [`ejudge-clipboard.user.js`](ejudge-clipboard.user.js) file from this project.
-- Access to an ejudge.kz problem page with a solution editor.
 
 ## Installation, step by step
 
@@ -20,32 +15,18 @@ https://github.com/user-attachments/assets/13cc8c67-27d2-453e-9126-b2bcf5596cbd
 
 ### 1. Install Tampermonkey
 
-If you already have regular Tampermonkey installed, skip to step 2.
-
 1. Open [the official Tampermonkey website](https://www.tampermonkey.net/) in Chrome.
-2. Choose the stable Chrome/Chromium version and follow its link to the extension
-   store.
-3. Click **Add to Chrome** (the store may use that wording even in Helium), then
+2. Click **Add to Chrome** (the store may use that wording even in Helium), then
    confirm **Add extension** when prompted.
-4. Find the browser's **Extensions** button, usually a puzzle-piece icon near the
-   top-right corner. Open it and find **Tampermonkey**.
-5. If a pin button is available, pin Tampermonkey so its icon is easy to find.
+3. If a pin button is available, pin Tampermonkey so its icon is easy to find.
 
 ### 2. Allow Tampermonkey to run userscripts
-
-The available settings depend on your browser version.
 
 1. Type `chrome://extensions` into the browser's **address bar** and press **Enter**.
    The browser may redirect it to its own equivalent settings address.
 2. Find **Tampermonkey** and make sure its extension switch is **on**.
 3. Click **Details**.
 4. If you see **Allow User Scripts**, turn it **on**.
-   - If that option is missing and Tampermonkey asks you to enable **Developer
-     mode**, go back to the extensions list and turn on **Developer mode**, usually
-     in the top-right corner.
-5. Under **Site access**, ensure Tampermonkey can run on `https://ejudge.kz`.
-   If you use **On specific sites**, add that address. Access **On all sites** also
-   covers it. Access only **On click** may prevent the early injection this script needs.
 
 ### 3. Copy the script file
 
