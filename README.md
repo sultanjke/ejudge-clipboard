@@ -16,6 +16,8 @@ script for you.
 
 ## Installation, step by step
 
+https://github.com/user-attachments/assets/13cc8c67-27d2-453e-9126-b2bcf5596cbd
+
 ### 1. Install Tampermonkey
 
 If you already have regular Tampermonkey installed, skip to step 2.
@@ -44,8 +46,6 @@ The available settings depend on your browser version.
 5. Under **Site access**, ensure Tampermonkey can run on `https://ejudge.kz`.
    If you use **On specific sites**, add that address. Access **On all sites** also
    covers it. Access only **On click** may prevent the early injection this script needs.
-
-If Tampermonkey displays a setup message, complete those steps before continuing.
 
 ### 3. Copy the script file
 
