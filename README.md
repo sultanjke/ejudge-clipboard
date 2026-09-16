@@ -20,8 +20,7 @@ script for you.
 
 If you already have regular Tampermonkey installed, skip to step 2.
 
-1. Open [the official Tampermonkey website](https://www.tampermonkey.net/) in Chrome
-   or Helium.
+1. Open [the official Tampermonkey website](https://www.tampermonkey.net/) in Chrome.
 2. Choose the stable Chrome/Chromium version and follow its link to the extension
    store.
 3. Click **Add to Chrome** (the store may use that wording even in Helium), then
