@@ -28,42 +28,13 @@ https://github.com/user-attachments/assets/13cc8c67-27d2-453e-9126-b2bcf5596cbd
 3. Click **Details**.
 4. If you see **Allow User Scripts**, turn it **on**.
 
-### 3. Copy the script file
+### 3. Drag and drop the downloaded .user.js file
+1. Download [`ejudge-clipboard.user.js`](ejudge-clipboard.user.js).
+2. Click the Tampermonkey icon → Dashboard.
+3. Drag the ejudge-clipboard.user.js from File Explorer or from Chromium's recent downloaded history into the Dashboard page.
+4. Tampermonkey should open an installation screen. Click **Install**.
 
-1. Locate **`ejudge-clipboard.user.js`** in the project folder.
-   - If the project came in a ZIP archive, right-click the ZIP and choose
-     **Extract All** first, then open the extracted folder.
-2. Right-click the file and choose **Open with → Notepad** (or another text editor).
-   Use **Open with** rather than double-clicking a `.js` file, which Windows may
-   try to execute instead of displaying its contents.
-3. In the text editor, press **Ctrl+A** to select everything, then **Ctrl+C** to copy.
-
-Copy the **entire file**, including its header beginning with:
-
-```js
-// ==UserScript==
-```
-
-If viewing the file on a code-hosting website, open its **Raw** view first and copy
-the full file contents. Copy only the JavaScript, without line numbers or Markdown
-code fences such as ` ```js `.
-
-### 4. Add the script to Tampermonkey
-
-1. Return to your browser and click the **Tampermonkey** toolbar icon.
-2. Click **Create a new script**. Alternatively, open **Dashboard** and click the
-   **+** tab to create a script.
-3. An editor opens with example code. Click **inside the code area**.
-4. Press **Ctrl+A** to select all the example code, then **Ctrl+V** to replace it
-   with the script you copied.
-5. Press **Ctrl+S** to save. You can also use the editor's **File → Save** menu.
-6. Open Tampermonkey's **Dashboard** and find:
-
-   **ejudge.kz — copy/paste disabler bypasser**
-
-7. Make sure the switch next to that script is **on**. Also make sure Tampermonkey itself is enabled in its toolbar menu.
-
-### 5. Reload the solution page
+### 4. Reload the code editor page
 
 1. Open ejudge.kz/contest page, log in as usual, and navigate to a code editor.
 2. Press **Ctrl+R** or click the browser's **Reload** button.
