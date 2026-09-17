@@ -16,7 +16,7 @@ https://github.com/user-attachments/assets/13cc8c67-27d2-453e-9126-b2bcf5596cbd
 ### 1. Install Tampermonkey
 
 1. Open [the official Tampermonkey website](https://www.tampermonkey.net/) in Chrome.
-2. Click **Add to Chrome** (the store may use that wording even in Helium), then
+2. Click **Add to Chrome**, then
    confirm **Add extension** when prompted.
 3. If a pin button is available, pin Tampermonkey so its icon is easy to find.
 
